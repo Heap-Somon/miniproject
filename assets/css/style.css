@@ -379,6 +379,8 @@ img{
 /* =============  Resume Section  ========= */
 .resume-section{
  position: relative;
+ background-color: #6cd4d41e;
+ padding-block: 20px;
 }
 .resume-section .section-title{
  width: auto;
@@ -518,11 +520,18 @@ img{
 /* ===================== */
 
 /* portfolio */
+
+.portfolio{
+   background-color: #6cd4d41e;
+  padding-block: 20px;
+}
+
 .portfolio-filters {
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  
 }
 
 .portfolio-filters li {
